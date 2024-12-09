@@ -7,7 +7,7 @@
 }
 
 body{
-    background: linear-gradient(90deg, rgb(255, 162, 43) 0%, rgb(255, 255, 255) 100%);
+    background: linear-gradient(90deg, rgb(255, 162, 43) 0%, rgba(207, 207, 207, 0.391) 100%);
     font-family: 'Poppins', sans-serif;
 
 }
@@ -27,6 +27,10 @@ form{
     
 }
 
+.text-center{
+    font-weight: bold;
+}
+
 .form-control{
     color: rgba(0,0,0,.87);
     border-bottom-color: rgba(0,0,0,.42);
@@ -42,8 +46,48 @@ form{
  .form-label{
     font-weight: 800 !important;
  }
+
+ .logo{
+
+    img{
+        align-items: center;
+        height: 90%;
+        width: 90%;
+        padding-left:40px;
+    }
+ }
+
+#emailHelp{
+    color: black;
+}
+
+
+
+
+
+
+
+ @media only screen and (max-width: 1200px) {
+    form {
+        width: 70% !important;
+    }
+  }
+
+
+@media only screen and (max-width: 945px) {
+    form {
+        width: 70% !important;
+    }
+  }
+
 @media only screen and (max-width: 600px) {
     form {
-        width: 100% !important;
+        width: 80% !important;
+    }
+  }
+
+ @media only screen and (max-width: 450px) {
+    form {
+        width: 90% !important;
     }
   }
